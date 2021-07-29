@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  color: limegreen;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  color: grey;
+}
+
+ul > li {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px 5px 0 0;
+  transition: 1500ms ease-in-out border-radius border font-size box-shadow color;
+  border-bottom: 1px solid black;
+}
+
+li:hover {
+  border: 1px solid lime;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0 0 5px 0 rgb(255, 255, 255);
+  color: orange;
+}
+.shadow {
+  box-shadow: 0 0 2px 0 rgb(0, 0, 0);
+}

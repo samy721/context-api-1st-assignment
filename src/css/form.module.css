@@ -1,0 +1,23 @@
+form {
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 0 1px 0 rgb(0, 0, 0);
+}
+form > * {
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+  border-bottom: 1px solid gray;
+}
+form > input:focus {
+  background-color: rgba(128, 128, 128, 0.11);
+  color: black;
+}
+form > *:focus {
+  border-radius: 5px;
+}
